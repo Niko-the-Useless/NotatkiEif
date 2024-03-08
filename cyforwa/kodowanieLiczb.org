@@ -1,0 +1,32 @@
+#+title: Kodowanie Liczb
+#+description: Metody kodowania liczb, Bit, Bajt, Systemy liczbowe
+* Bit, Bajt, Słowo
+| Bit     | Pojedyńcza wartość 0-1 |
+| Słowo   | Ciąg bitów             |
+| Bajt    | Słowo 8 Bitowe         |
+| Tetrada | Słowo 4 Bitowe         |
+* Sposby kodowania liczb
+** Naturalnych
+system pozycyjny z potęgami bazy liczbowej
+| cyfra | a₅ | a₄ | a₃ | a₂ | a₁ | a₀ |
+|-------+----+----+----+----+----+----|
+| waga  | 32 | 16 |  8 |  4 |  2 |  1 |
+*** Metody Przeliczania
+z 10 na 2 X%2 (np. 3%2=1 ^ 1 1%2=1 3₁₀ = 11₂)
+** Całkowitych
+Najstarszy Bit ma wagę ujemną
+*** Kod Uzupełnień do 2 (U2)
+| cyfra |  a₅ | a₄ | a₃ | a₂ | a₁ | a₀ |
+|-------+-----+----+----+----+----+----|
+| waga  | -32 | 16 |  8 |  4 |  2 | 1  |
+** Ułamkowych
+*** Dwójkowy system stałoprzecinkowy
+gdzie 3 to położenie przecinka
+| cyfra | a₅ | a₄ | a₃ | a₂  | a₁  | a₀  |
+|-------+----+----+----+-----+-----+-----|
+| waga  |  4 |  2 |  1 | 1/2 | 1/4 | 1/8 |
+**** Metoda Przeliczania
+3.14 = ∑aᵢ*2ⁱ⁻³
+* Kod BCD
+51₁₀=0101 0001 BCD
+Każda cyfra w liczbie jest oznaczona przez tetraedrę(4 bity)

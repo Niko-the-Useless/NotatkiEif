@@ -1,0 +1,19 @@
+Uklady analogowe a cyfrowe
+	W ukladach cyfrowych bada sie stany logiczne a nie zaleznosc napiecia i natezenia
+
+relay
+	2 relay szeregowo - bramka AND - koniunkcja logiczna
+	"""" 	rownolegle	- Bramka OR
+
+stany logiczne a napiecie
+	Napiecie zasilania -Vcc (np 5V)
+	zakres napiec 0V - Vol -> stan 0
+	napaiecie Voh - np 5V  -> stan 1
+
+	Vol Voh - zakres napiec nadajnika V(output)low/high
+
+	Vol != Voh jest miedzy nimi przedzial zabroniony
+	stany w odbiorniki sa szersze
+	Vil Vih - zakresy napiec w odbiorniku V(input)low/high
+
+

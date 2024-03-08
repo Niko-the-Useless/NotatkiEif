@@ -1,0 +1,48 @@
+#+title: Bramki Logiczne i Algebra Boolean
+#+description: Co to bramka, bramki, algebra - własności i prawa, schemat a równanie
+* Bramki
+** Suma OR
+| P | Q | O |
+|---+---+---|
+| 0 | 0 | 0 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 1 | 1 |
+** Iloczyn AND
+| P | Q | O |
+|---+---+---|
+| 0 | 0 |   |
+| 1 | 0 |   |
+| 0 | 1 |   |
+| 1 | 1 |   |
+** Negator NOT
+| P | O |
+|---+---|
+| 1 | 0 |
+| 0 | 1 |
+** Suma Zanegowana NOR
+| P | Q | O |
+|---+---+---|
+| 0 | 0 |   |
+| 1 | 0 |   |
+| 0 | 1 |   |
+| 1 | 1 |   |
+** Iloczyn Zanegowany NAND
+| P | Q | O |
+|---+---+---|
+| 0 | 0 |   |
+| 1 | 0 |   |
+| 0 | 1 |   |
+| 1 | 1 |   |
+
+* Boolean Algebra
+Algebra na zbiorze 2 elementowym (tutaj 1,0) i 3 operatorów(OR AND NOT) operacje dodatkowe suma modulo (alternatywa wykluczająca)
+** Własności
+- Przemienność
+- łączność
+- rozdzielność
+- tożsamość
+- komplementarność
+** Prawa de Morgana
+** Prawo Sklejania
+** Prawo Pochłaniania
