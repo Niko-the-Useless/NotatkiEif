@@ -1,0 +1,14 @@
+#+title:
+#+description: Typy danych,
+* Typy danych
+** Stałe
+*** Metody tworzenia
++ za pomocą #define
+  + Dyrektywa Preprocesora
++ Słowa kluczowego "const"
+** Zmienne
++ Mają
+  + Identyfikator
+  + Typ
+  + zakres wartości
+  + zestaw operacji które można na niej użyć

@@ -1,0 +1,31 @@
+#+title:  Pole, Ładunek, prawo Coulomba, Natężenie pola, potęcjał, napięcie
+#+description: Pole, Ładunek, prawo Coulomba, Natężenie pola, potęcjał, napięcie
+
++ ciało w stanie ruchu - elektrodynamika
++ ciało w stanie spoczynku - elektrostatyka
+* Ładunek elektryczny
++ Skwantowany
++ Relatywistycznie niezmienny
+  wartość taka sama w spoczynku i ruchu
++ Podlega Kreacji i Anihilacji
++ Zasada zachowania ładunku
++ Zasada niezmienności ładunku
+
++ $F=k\frac{q₁q₂}{r²}r^$
+
++ ładunek rozłożony liniowo $Q=\frac{Q}{L}$ $\frac{C}{m}$
++ ładunek rozłożony na powierzchni $Q=\frac{Q}{S}$ $\frac{C}{m²}$
++ ładunek rozłożony objętościowo $Q=\frac{Q}{V}$ $\frac{C}{m³}$
+
+* Układy jednostek
++ ES/EM CCG
+  + ES - elektrostatyczny $e=4.80*10^{-10}$
+  + EM - elektromagnetyczny
++ SI $e = 1.602*10^{-19}C$
+* Prawo Coulomba
+$F_{wektor}=q(\frac{1}{4π*\epsylon₀}*\frac{Q}{r²}eᵣ)$
+* Układ Ładunków
+i tak nic z tego nie rozumiem
+* Linie pola
+kurwa poddaje się
+* ogarnij podręcznik
