@@ -1,0 +1,30 @@
+#+title: Układ cyfrowy Kombinacyjny, Funkcja bool
+#+description:
+* Term funkcji boolowskiej
+wyrażenie zapisane w algebrze boola będące iloczynem wszystkich argumentów funkcji boolowskiej lub sumą (term sumowy)
+|  x₁ |  x₂ |  x₃ | x₁*x₂*x₃ | x₁*~x₂*x₃ | x₁+x₂+x₃ |
+|-----+-----+-----+----------+-----------+----------|
+|   0 |   0 |   0 |        0 |         0 |        0 |
+|   0 |   0 |   1 |        0 |         0 |        1 |
+|   0 |   1 |   0 |        0 |         0 |        1 |
+| ... | ... | ... |      ... |       ... |      ... |
+|   1 |   0 |   1 |        0 |         1 |        1 |
+| ... | ... | ... |      ... |       ... |      ... |
+|   1 |   1 |   1 |        1 |         0 |        1 |
+* Dektoder NKB na kod 1 z n
+n bitowe słowo -> 2ⁿ bitowe słowo
+|   x | y₇ | y₆ | y₅ | y₄ | y₃ | y₂ | y₁ | y₁ |
+|-----+----+----+----+----+----+----+----+----|
+| 000 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |
+| 001 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |
+| 010 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |
+| 011 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |
+| 100 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |
+| 101 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |
+| 110 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |
+| 111 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |
+
+y₁=~x₁*~x₂*~x₃
+itd
+* liczba wszystkich funkcji boolowskich możliwych do zrobienia z n zmiennych
+$2^{n^{n}}$
