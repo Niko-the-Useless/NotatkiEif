@@ -1,0 +1,4 @@
+#+title:
+#+description:
+funkcja prawdopodobieństwa
+dystrybuanta-funkcja która bierze za argument zmienną losową , zbiór wartości 0-1

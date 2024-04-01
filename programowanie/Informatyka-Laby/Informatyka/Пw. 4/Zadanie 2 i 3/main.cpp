@@ -4,6 +4,8 @@
 
 int main() {
 	float x, y, result;
+	float oldX=0, oldY=0, oldResult=4;
+while(true){
 	std::cout << "Type two numbers." << std::endl << "x: ";
 	std::cin >> x;
 	std::cout << std::endl << "y: ";
@@ -17,6 +19,16 @@ int main() {
 	std::cin >> operationValue;
 	Operation operation = static_cast<Operation>(operationValue);
 	result = calculate(operation, x, y);
+
+	if(oldX==x && oldY==y && oldResult==result) {
+	std::cout<<"exit ";
+	return 1;}
+	else {
 	std::cout << "Operation result equals: " << result << std::endl;
-	return EXIT_SUCCESS;
+	}
+
+	oldX=x;
+	oldY=y;
+	oldResult=result;
+	}
 }
