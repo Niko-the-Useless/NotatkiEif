@@ -1,0 +1,19 @@
+#+title: Prąd stały
+#+description:
+* Ogniwo napięciowe
+Ogniwo galwaniczne zawiera
++ Anoda
++ Katoda
+  Gdy zostaną połączone w jeden obwód powstaje prąd
+** Ogniwa Pierwotne (nieodnawialne)
+Często zbudowane z tych samych materiałów ale o innej budowie
+** Ogniwa Wtórne (odnawialne)
+Takie same, ale procesy chem. zachodzące w środku mogą być odwrócone (ładowanie)
+** Działanie baterii
+na katodzie zachodzi proces redukcji a na anodzie utleniania
+
+* Właściwości cewki i kondensatora
+** Kondensator
+** Cewka
+* Obwody nieliniowe
+* Analiza stanów nieustalonych w obwodach RC i RL

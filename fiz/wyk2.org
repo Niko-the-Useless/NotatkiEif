@@ -1,0 +1,8 @@
+#+title: Tw Gussa, Dielektryki, przewodnik po polu, energia pola
+#+description: Tw Gussa, Dielektryki, przewodnik po polu, energia pola
+* Strumień pola wektorowego
+Powierzchnię dzilimy na nieskonńczenie wilee powierzchni elementarnych, bierzemy ich wektor nromalny i cos wektora normalnego do wektroa sily
+* Tw gaussa
+* Dielektryki
+* Przewodnik w polu
+* Energia pola

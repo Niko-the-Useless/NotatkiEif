@@ -1,3 +1,3 @@
 #pragma once
-
-int multiply(int x, int y);
+extern "C"{
+int multiply(int x, int y);};

@@ -1,0 +1,21 @@
+#+title: Prąd zmienny
+* Obwody Nieliniowe
+obwód w którym co najmniej 1 element jest nieliniowy, lub więcej wzajemnie nierównoważących
+** Element Nieliniow
+Jeśli charakterystyka elementu jest nieliniowa (nie można jej opisać y=ax+b)
+Element nieliniowy może byc pasywny
+* Stany nieustalone w obwodach RL i RC
+Jeżeli obwód
+** jest pozbawiony/ma znikomo małą indukcyjność/pojemniść, czyli nie ma zdolności wytwarzania pola mag/elektr
+ + to z chwilą włączenia następuje bezzwłoczny przepływ prądu o ustalonej wartości Np. REZYSTOR
+** Ma pojemność lub indukcyjność
+to zanim przepłynie prąd poprzedzi go
+ + Stan wzrastania przy włączania
+ + Stan zanikania przy wyłączaniu
+** Pierwsze prawo komutacji
+prąd w obwodzie z indukcyjnością L nie może zmienić się skokowo
+** Drugie prawem kumutacji
+Napięcie w obwodzie z pojemnoścą C nie może zmienić się skokowo
+** Oznacza to że
++ W obwodzie z indukcyjością prąd osiąga wartość ustaloną stopniowo
++ W obwodzie z pojemnoścą prąd gromadzi się stopniowo

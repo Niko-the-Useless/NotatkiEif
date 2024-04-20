@@ -1,0 +1,12 @@
+#+title: Minimalizacja Funkcji Boolowskiej
+#+description:
+* Implikant I(x)
+Term iloczynowy dla którego jest prawdziwe
++ $I(x)=1->f(x)=1$
+Implikantami funkcji boolowskiej Są termy iloczynwe zupełne torzące postac kanoniczną sumową
+Jeśli istnieje takie X dla którego f(X)=1 i dla którego tylko 1 implikant prosty jest I(X)=1 to jest to implikant zasadniczy
+* Postać minimalna funkcji
+** Sumowa
++ składa się z jak najmiejszej ilości implikacji prostych
++ muszą wystąpić wszystkie zasadnicze
++ mieć kilka mostaci minimalnych

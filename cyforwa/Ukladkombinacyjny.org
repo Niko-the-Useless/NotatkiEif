@@ -28,3 +28,29 @@ y₁=~x₁*~x₂*~x₃
 itd
 * liczba wszystkich funkcji boolowskich możliwych do zrobienia z n zmiennych
 $2^{n^{n}}$
+* Funkcja Boolowska niezupełna
+nie każdy input obsługiwany
+* Metody zapisywania funkcji boolowskiej
+** Postać Kanoniczna tabeli prawdy
+** Zapis dziesiętny
+$I=\sum_{3}(1,2,3,4,5,6,7)$ funkcja sumowa 3 input output 1 dla 1,2,3,4,5,6,7
+$I=\Pi_{3}(0,3,4)$ funkcja iloczynowa ma wartość 0 dla rzędu 0,3,4 tabeli
+** Kod Grey'a
+lustra
+*** Mapa Karnaugh
+| x | 00 | 01 | 11 | 10 |
+|---+----+----+----+----|
+| 0 |  0 |  1 |  0 |  1 |
+| 1 |  0 |  1 |  1 |  1 |
+mapa
+| X₂ | X₁ | X₀ |   |
+|----+----+----+---|
+|  0 |  0 |  0 | 0 |
+|  0 |  0 |  1 | 1 |
+|  0 |  1 |  0 | 1 |
+|  0 |  1 |  1 | 0 |
+|  1 |  0 |  0 | 0 |
+|  1 |  0 |  1 | 1 |
+| .. | .. | .. | . |
+tabela
+** Kod Johnsonn'a
