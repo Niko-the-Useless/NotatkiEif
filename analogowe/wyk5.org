@@ -1,3 +1,26 @@
-#+title:
+#+title: Prąd zmienny
 #+description:
-*
+natężenie zmienia się okresowo, w równych odstępach czasu
++ prąd przemienny
+  średnia wartość = 0
++ prąd tętniący
+  średnia wartość != 0
+* prąd Sinusoidalny
++ $y=F*sin(\alpha)$
++ $ω=\frac{α}{t}$
+[[file:/home/Niko/studia/analogowe/sin.png]]
+wykres wektorowy i czasowy
+** Źródłami napięcia sinusoidalnego są prądnice
+modelem prądnicy jest zwój w postaci ramki wirujący ze stałą prędkością kątową ω
+w polu magnetycznym równomiernym
+** Wielkości prądu sinusoidalnego
++ pulsacja prądu zmiennego
++ dla siły elektromotorycznej $e=E_{m}*sin(\omega t)$
+** wartość średnia i skuteczna
+*** Wartośc średnia =0
+*** Wartość skuteczna
+$I=\frac{I_{m}}{√2}$
+* Impedancja
+* Liczby zespolone
+* Połączenie szeregowe RC
+$X_c=-j\frac{1}{\oemga C}$
