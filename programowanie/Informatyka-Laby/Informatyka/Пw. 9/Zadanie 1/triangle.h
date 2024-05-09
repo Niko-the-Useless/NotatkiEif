@@ -7,4 +7,4 @@ typedef struct Point {
 	double x, y;
 } Point_t;
 
-bool isRightTriangle(Point_t points[]);
+bool isRightTriangle(Point_t points[3]);

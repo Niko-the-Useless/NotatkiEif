@@ -1,0 +1,12 @@
+#+title:
+#+description:
+
+* Prawo Biota-Savarta
+* Siły w polu megnetycznym
+na poruszający się w polu magnetycznyym działa rzw SIŁA MAGNETYCZNA która wyznacza
++ ładunek q
++ Prędkośc ruchu ładunków
++ indukcja maagnetyczna w punkcie w którym w danym momencie znajduje się ładunek q
+** Siła Lorentza
+siła magnetyczna jest zawsze skierowana prostopadle do płaszczyzny w której leżą wektory v i b
+** Prawo Ampera:
