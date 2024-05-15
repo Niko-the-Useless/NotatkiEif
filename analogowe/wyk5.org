@@ -1,5 +1,6 @@
 #+title: Prąd zmienny
 #+description:
+* Prąd zmienny
 natężenie zmienia się okresowo, w równych odstępach czasu
 + prąd przemienny
   średnia wartość = 0
@@ -20,7 +21,53 @@ w polu magnetycznym równomiernym
 *** Wartośc średnia =0
 *** Wartość skuteczna
 $I=\frac{I_{m}}{√2}$
-* Impedancja
+* Impedancja Zastępcza
+** Impedancję dodawać jak rezystory
 * Liczby zespolone
++ $U_r = R*I$
++ $U_L = j\omega L*I = X_L$
+** Admitancja zespolona
 * Połączenie szeregowe RC
 $X_c=-j\frac{1}{\oemga C}$
+
+* Obliczanie Obwodów
+** Metoda zamiany źródeł
+zmiana z napięciowych na prądowe i vice versa
++ $E=I_z*Z_w$
++ $I_z=\frac{E}{Z_w}$
+** Metoda Klasyczna
+ 1. Obliczenie impedancji zastępczej
+ 2. piszemy równania węzłowe np. I₁+I₂=I₃
+ 3. piszemy równanie oczkowe np. E₁-I₁Z₁-I₃Z₃=0  E₂-I₂Z₂-I₃Z₃=0
+ 4. Obliczamy układ równań
+Wszystko tak samo jak w metodzie klasycznej dla prądu stałego
+** Metoda Prądów Oczkowych
+1. Obliczenie impedancji zastępczej
+2. Przyjmójemy przebieg prądów oczkowych
+3. Obliczamy impedancje własne oczek
+4. Obliczamy impedancje wzajemne oczek
+5. Obliczamy żródłowe napięcia oczkowe
+6. obliczamy rówania oczkowe
+Wszystko tak samo jak w metodzie prądów oczkowych dla prądy stałego
+** Metoda Superpozycji
+1. Obliczamy impedancję poszczególnych gałęzi
+2. Obliczamy rozpływ prądów w obwodzie z jednym źródłem
+3. Sprowadzamy układ do 1 oczka
+4. Obliczamy wartość prądu I₁
+5. Obliczamy wartości prądów I₂', I₃' etc
+6. Obliczamy wartości rzeczywiste prądów
+Wszystko tak samo jak w metodzie superpozycji dla prądy stałego
+** Metoda Thevenina
+1. Wstawienie zacisków A i B
+2. Zamiana części obwodu do zacisków na zastęcze źródło napięcia
+3. Obliczamy impedancę wewnętrzną źródła Thevenina
+4. Obliczenie siły elektromotorycznej zastęprzej źródła napięciowego (orginalnego)
+5. Zamiana częsci obwodu do zanisków A i B na zastępcze źródło napięciowe
+6. Obliczanie spadku napięcia U na reaktancji X
+Wszystko tak samo jak w metodzie Thevenina dla prądy stałego
+** metoda Northona
+1. Zamiana fragmentu obwodu do zacisków na zastępcze źródło prądowe
+2. Obliczenie impedancji wewnętrznej zastępczego źródła Borthona
+3. Obliczamy wydajność prądową zastępczego źródła napięciowego
+4. Obliczenie prądu płynącego w gałęzi obcziążenie
+Wszystko tak samo jak w metodzie Northona dla prądy stałego
