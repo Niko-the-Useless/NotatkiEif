@@ -1,0 +1,40 @@
+#+title: Moc w obwodach prądu zmiennego
+#+description:
+* Moc czynna
+w obwodzie składającym się z odcinków składających się z
++ oporów czynnych i biernych
++ połączonych szeregowo i równolege
+zawsze występuje przesunięcie fazowe jednej wielkości względem drugiej.
+Ogólnie można poweidzieć że prąd opóźnia się o kąt ϕ gdy jest
++ dodatni w gałęzi RL
++ ujemny w gałęci RC
+Stąd moc $p=u*i=U*I*sin(\omega t)*sin(\omega t-\phi)$
+$p=\frac{1}{2}U_m*I_m*cos\phi-\frac{1}{2}Uₘ*Iₘ*cos(2\omega t-\phi)$
+Pole ujemne są tym mniejsze od pól dodatnich:
++ im większy opór czynny odbiornika
++ im mniejszy jego opór biernych
+jeżeli odbiornik ma tylko opór czynny
++ to na wykresie mocy p pól ujemnych nie ma
+$P=U*I*cos\phi$
+gdzie cosϕ to współczynik mocy
+* Moc bierna
+energia która jest pobierana przez odbiornik a następnie oddawana do źródła
+Q=U*I*sinϕ
+A$Q=(U_l-U_c)*I=Q_l-Q_c$
+* Moc pozorna
+S=U*I
+* Trójkąt mocy
+[[file:/home/Niko/studia/analogowe/troj.png]]
+* wpływ współczynnika mocy na pracę źródła napięcia
+Znaczna większośc odbiorników energii elektrycznej ma uzwojenia w postaci cewek i przez to ma charakter indukcyjny
+można je przedstawić jako szeregowe połączenie:
++
+** prąd płynący w sieci od źródła napięcia
+$I=\frac{S}{U}$
+lub inaczej
+$I=\frac{P}{U*cos\phi}$
+** Przekrój uzwojenia prądnicy
+określa wartość dopuszczalną maksymalneo prądu
+** Problem ten można elminować poprzez
++ pczyłączenie równolegle kondensatora do odbiornika o charakterze indukcyjnym
+  wtedy maleje udział składowej biernej Iₓ=Iₗ-I_c

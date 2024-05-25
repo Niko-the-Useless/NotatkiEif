@@ -1,0 +1,5 @@
+#+title: Arytmetyka Binarna
+#+description:
+* Dodawanie i odejmowanie
+normalnie
+* Mnożenie i dzielenie
