@@ -1,0 +1,35 @@
+#+title:
+#+description:
+* Czwórnik
+4 zaciski, 2 wejściowe, 2 wyjściowe
+** Czwórniki bierne
+nie zawierają źródeł sił elektromotorycznych ani prądu
+składa sie tylko z
++ oporów czynnych
++ oporów biernych
++ oporów pojemnościowych
+mogą więc oddawać mniej mocy niż pobierają
+** Czwórnik symetryczny
+można zmienić miejsce przyłączenia odbiornika i źródła
+nie powoduje zmiany napięcia ani natężenia
+** Przykłady
++ Najprostszy czwórnik to linia 2 przewodowa łącząca źródło i odbiornika
++ transformator
++ etc
+** łączenie czwórników
+proste można łączyć
++ szeregowo
++ równolegle
++ łańcuchowe
+  output1->input2, output2->input3, np LP filter do HP filter żeby mieć bandpass
++ drzewko
++ etc
+* Filtry
++ czwórnik liniowy bierny włączony między źródło a odviornik
++ przepuszcza pasma przepustowe
++ tłumi inne (wyższe, mniejsze, albo poza band)
+** rodzaje
++ LPF lowpass niskoprzepustowy
++ HPF highpass wysokoprzepustowy
++ BPF bandpass środkowoprzepustowy
++ BSF bandstop środkowozaporowy

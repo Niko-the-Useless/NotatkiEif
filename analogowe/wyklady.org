@@ -1,0 +1,249 @@
+#+title: Źródła Prądu i Napięcia
+#+description:
+* Elementy Aktywne/Czynne
++ Biegun dodatni o większym Potęcjale
++ Różnica potęcjału między zaciskami to SIŁA ELEKTROMOTORYCZNA+ Biegun dodatni o większym Potęcjale
++ Od - -> +
++ rzeczywiste ma rezystancję wewnętrzną
+** Źródła Napięcia
++ Rys 1.0
++ rezystancja wewnętrzna szeregowo ze źródłem
++ Napięcie stałe, natężenie zmienia się
++ Rezystancja wewnętrzna musi być jak najmniejsza
+**** STANY PRACY ŹRÓDŁA
+***** Stan Jałowy
+w obwodzie nie płynie prąd, Napięce Uₒ == napęciu źródłowemu E rys 1.1
+***** Stan Zwarcia Źródła
+Stan Pracy przy rezystancji obciążenia R = 0, W obwodzie płynie prąd I=E/R_w rys 1.2 (Się jara)
+***** Stan obciążenia źródła
+Rezystancja obciążenia 0<R<inf, I=E/(R+R_w) rys 1.3
+***** Stan Dopasowania
+Rezystancja obciążenia R = R_w
+** Źródło Prądowe
++ Daje Stałe natężenie przy zmienjącym się napięciu
++ w schemacie rezystancja wewnętrzna równolegle do źródła
++ Rezystancja wewnętrzna musi być jak największa
+*** Stany
+**** Jałowy
+**** Zwarcia
+**** Obciążenia
+**** Dopasowania
+** Każde źródło Napięcia można zamienić źródłem prądu i vice versa rys 1.4
+Tylko rezystor zmienia położenie
+E=I_z*R_w I_z=R/R_w
+rys 1.4
+** Łączenie źródeł napięcia - SZEREGOWO!!!!!!!
+rys 1.5
+** Źródła Prądowe łączymy RÓWNOLEGLE!!!!!!
+#+title:Obliczanie obwodów metodą klasyczną
+#+description:
+#+title: Prąd stały
+#+description:
+* Ogniwo napięciowe
+Ogniwo galwaniczne zawiera
++ Anoda
++ Katoda
+  Gdy zostaną połączone w jeden obwód powstaje prąd
+** Ogniwa Pierwotne (nieodnawialne)
+Często zbudowane z tych samych materiałów ale o innej budowie
+** Ogniwa Wtórne (odnawialne)
+Takie same, ale procesy chem. zachodzące w środku mogą być odwrócone (ładowanie)
+** Działanie baterii
+na katodzie zachodzi proces redukcji a na anodzie utleniania
+
+* Właściwości cewki i kondensatora
+** Kondensator
+** Cewka
+* Obwody nieliniowe
+* Analiza stanów nieustalonych w obwodach RC i RL
+#+title: Prąd zmienny
+* Obwody Nieliniowe
+obwód w którym co najmniej 1 element jest nieliniowy, lub więcej wzajemnie nierównoważących
+** Element Nieliniow
+Jeśli charakterystyka elementu jest nieliniowa (nie można jej opisać y=ax+b)
+Element nieliniowy może byc pasywny
+* Stany nieustalone w obwodach RL i RC
+Jeżeli obwód
+** jest pozbawiony/ma znikomo małą indukcyjność/pojemniść, czyli nie ma zdolności wytwarzania pola mag/elektr
+ + to z chwilą włączenia następuje bezzwłoczny przepływ prądu o ustalonej wartości Np. REZYSTOR
+** Ma pojemność lub indukcyjność
+to zanim przepłynie prąd poprzedzi go
+ + Stan wzrastania przy włączania
+ + Stan zanikania przy wyłączaniu
+** Pierwsze prawo komutacji
+prąd w obwodzie z indukcyjnością L nie może zmienić się skokowo
+** Drugie prawem kumutacji
+Napięcie w obwodzie z pojemnoścą C nie może zmienić się skokowo
+** Oznacza to że
++ W obwodzie z indukcyjością prąd osiąga wartość ustaloną stopniowo
++ W obwodzie z pojemnoścą prąd gromadzi się stopniowo
+#+title: Prąd zmienny
+#+description:
+* Prąd zmienny
+natężenie zmienia się okresowo, w równych odstępach czasu
++ prąd przemienny
+  średnia wartość = 0
++ prąd tętniący
+  średnia wartość != 0
+* prąd Sinusoidalny
++ $y=F*sin(\alpha)$
++ $ω=\frac{α}{t}$
+[[file:/home/Niko/studia/analogowe/sin.png]]
+wykres wektorowy i czasowy
+** Źródłami napięcia sinusoidalnego są prądnice
+modelem prądnicy jest zwój w postaci ramki wirujący ze stałą prędkością kątową ω
+w polu magnetycznym równomiernym
+** Wielkości prądu sinusoidalnego
++ pulsacja prądu zmiennego
++ dla siły elektromotorycznej $e=E_{m}*sin(\omega t)$
+** wartość średnia i skuteczna
+*** Wartośc średnia =0
+*** Wartość skuteczna
+$I=\frac{I_{m}}{√2}$
+* Impedancja Zastępcza
+** Impedancję dodawać jak rezystory
+* Liczby zespolone
++ $U_r = R*I$
++ $U_L = j\omega L*I = X_L$
+** Admitancja zespolona
+* Połączenie szeregowe RC
+$X_c=-j\frac{1}{\oemga C}$
+
+* Obliczanie Obwodów
+** Metoda zamiany źródeł
+zmiana z napięciowych na prądowe i vice versa
++ $E=I_z*Z_w$
++ $I_z=\frac{E}{Z_w}$
+** Metoda Klasyczna
+ 1. Obliczenie impedancji zastępczej
+ 2. piszemy równania węzłowe np. I₁+I₂=I₃
+ 3. piszemy równanie oczkowe np. E₁-I₁Z₁-I₃Z₃=0  E₂-I₂Z₂-I₃Z₃=0
+ 4. Obliczamy układ równań
+Wszystko tak samo jak w metodzie klasycznej dla prądu stałego
+** Metoda Prądów Oczkowych
+1. Obliczenie impedancji zastępczej
+2. Przyjmójemy przebieg prądów oczkowych
+3. Obliczamy impedancje własne oczek
+4. Obliczamy impedancje wzajemne oczek
+5. Obliczamy żródłowe napięcia oczkowe
+6. obliczamy rówania oczkowe
+Wszystko tak samo jak w metodzie prądów oczkowych dla prądy stałego
+** Metoda Superpozycji
+1. Obliczamy impedancję poszczególnych gałęzi
+2. Obliczamy rozpływ prądów w obwodzie z jednym źródłem
+3. Sprowadzamy układ do 1 oczka
+4. Obliczamy wartość prądu I₁
+5. Obliczamy wartości prądów I₂', I₃' etc
+6. Obliczamy wartości rzeczywiste prądów
+Wszystko tak samo jak w metodzie superpozycji dla prądy stałego
+** Metoda Thevenina
+1. Wstawienie zacisków A i B
+2. Zamiana części obwodu do zacisków na zastęcze źródło napięcia
+3. Obliczamy impedancę wewnętrzną źródła Thevenina
+4. Obliczenie siły elektromotorycznej zastęprzej źródła napięciowego (orginalnego)
+5. Zamiana częsci obwodu do zanisków A i B na zastępcze źródło napięciowe
+6. Obliczanie spadku napięcia U na reaktancji X
+Wszystko tak samo jak w metodzie Thevenina dla prądy stałego
+** metoda Northona
+1. Zamiana fragmentu obwodu do zacisków na zastępcze źródło prądowe
+2. Obliczenie impedancji wewnętrznej zastępczego źródła Borthona
+3. Obliczamy wydajność prądową zastępczego źródła napięciowego
+4. Obliczenie prądu płynącego w gałęzi obcziążenie
+Wszystko tak samo jak w metodzie Northona dla prądy stałego
+#+title: Moc w obwodach prądu zmiennego
+#+description:
+* Moc czynna
+w obwodzie składającym się z odcinków składających się z
++ oporów czynnych i biernych
++ połączonych szeregowo i równolege
+zawsze występuje przesunięcie fazowe jednej wielkości względem drugiej.
+Ogólnie można poweidzieć że prąd opóźnia się o kąt ϕ gdy jest
++ dodatni w gałęzi RL
++ ujemny w gałęci RC
+Stąd moc $p=u*i=U*I*sin(\omega t)*sin(\omega t-\phi)$
+$p=\frac{1}{2}U_m*I_m*cos\phi-\frac{1}{2}Uₘ*Iₘ*cos(2\omega t-\phi)$
+Pole ujemne są tym mniejsze od pól dodatnich:
++ im większy opór czynny odbiornika
++ im mniejszy jego opór biernych
+jeżeli odbiornik ma tylko opór czynny
++ to na wykresie mocy p pól ujemnych nie ma
+$P=U*I*cos\phi$
+gdzie cosϕ to współczynik mocy
+* Moc bierna
+energia która jest pobierana przez odbiornik a następnie oddawana do źródła
+Q=U*I*sinϕ
+A$Q=(U_l-U_c)*I=Q_l-Q_c$
+* Moc pozorna
+S=U*I
+* Trójkąt mocy
+[[file:/home/Niko/studia/analogowe/troj.png]]
+* wpływ współczynnika mocy na pracę źródła napięcia
+Znaczna większośc odbiorników energii elektrycznej ma uzwojenia w postaci cewek i przez to ma charakter indukcyjny
+można je przedstawić jako szeregowe połączenie:
++
+** prąd płynący w sieci od źródła napięcia
+$I=\frac{S}{U}$
+lub inaczej
+$I=\frac{P}{U*cos\phi}$
+** Przekrój uzwojenia prądnicy
+określa wartość dopuszczalną maksymalneo prądu
+** Problem ten można elminować poprzez
++ pczyłączenie równolegle kondensatora do odbiornika o charakterze indukcyjnym
+  wtedy maleje udział składowej biernej Iₓ=Iₗ-I_c
+#+title: Rezonans szeregowy i równoległy
+#+description: jak wypadkowa impedancji = 0
+* Szeregowe połączenie RLC
+** Opór czynny Uₓ = R*I
+** Opór bierny indukcyjn
+** Rezonanas Napięć
+$f_0=\frac{1}{2\pi \sqrt{LC}}$
+$\omega_0=\frac{1}{\sqrt{LC}}$
+* Równoległy układ
+** prąd przez kondensator
+$$
+#+title:
+#+description:
+* Czwórnik
+4 zaciski, 2 wejściowe, 2 wyjściowe
+** Czwórniki bierne
+nie zawierają źródeł sił elektromotorycznych ani prądu
+składa sie tylko z
++ oporów czynnych
++ oporów biernych
++ oporów pojemnościowych
+mogą więc oddawać mniej mocy niż pobierają
+** Czwórnik symetryczny
+można zmienić miejsce przyłączenia odbiornika i źródła
+nie powoduje zmiany napięcia ani natężenia
+** Przykłady
++ Najprostszy czwórnik to linia 2 przewodowa łącząca źródło i odbiornika
++ transformator
++ etc
+** łączenie czwórników
+proste można łączyć
++ szeregowo
++ równolegle
++ łańcuchowe
+  output1->input2, output2->input3, np LP filter do HP filter żeby mieć bandpass
++ drzewko
++ etc
+* Filtry
++ czwórnik liniowy bierny włączony między źródło a odviornik
++ przepuszcza pasma przepustowe
++ tłumi inne (wyższe, mniejsze, albo poza band)
+** rodzaje
++ LPF lowpass niskoprzepustowy
++ HPF highpass wysokoprzepustowy
++ BPF bandpass środkowoprzepustowy
++ BSF bandstop środkowozaporowy
+** Współczynnik tłumienia
++ określa jaka część sygnału wejściowego znajdzie się przy określonej częstotliwości na wyjśca filtru
+może być określony jako
++ $wsp.tłumienia = \frac{U_Wyjście (2)}{U_wejście (1)}$
++ $a = ln\frac{U_2}{U_1}, (N, nepery)$
++ $k=-20log\frac{U_2}{U_1}, (dB)$
+** Impedancja falowa
+** Częstotliwość graniczna
+częstotliwość dla której tłumienie wynosi >3dB
+** Dobroć
+miara strat w filtrze i dokładności dostrojenia

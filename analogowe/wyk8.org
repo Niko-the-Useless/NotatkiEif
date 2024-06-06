@@ -1,0 +1,11 @@
+#+title: Rezonans szeregowy i równoległy
+#+description: jak wypadkowa impedancji = 0
+* Szeregowe połączenie RLC
+** Opór czynny Uₓ = R*I
+** Opór bierny indukcyjn
+** Rezonanas Napięć
+$f_0=\frac{1}{2\pi \sqrt{LC}}$
+$\omega_0=\frac{1}{\sqrt{LC}}$
+* Równoległy układ
+** prąd przez kondensator
+$$
