@@ -1,0 +1,172 @@
+#+title: Arytmetyka Binarna
+#+description:
+* Dodawanie i odejmowanie
+normalnie
+* Mnożenie i dzielenie
+#+title: Bramki Logiczne i Algebra Boolean
+#+description: Co to bramka, bramki, algebra - własności i prawa, schemat a równanie
+* Bramki
+** Suma OR
+| P | Q | O |
+|---+---+---|
+| 0 | 0 | 0 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 1 | 1 |
+** Iloczyn AND
+| P | Q | O |
+|---+---+---|
+| 0 | 0 |   |
+| 1 | 0 |   |
+| 0 | 1 |   |
+| 1 | 1 |   |
+** Negator NOT
+| P | O |
+|---+---|
+| 1 | 0 |
+| 0 | 1 |
+** Suma Zanegowana NOR
+| P | Q | O |
+|---+---+---|
+| 0 | 0 |   |
+| 1 | 0 |   |
+| 0 | 1 |   |
+| 1 | 1 |   |
+** Iloczyn Zanegowany NAND
+| P | Q | O |
+|---+---+---|
+| 0 | 0 |   |
+| 1 | 0 |   |
+| 0 | 1 |   |
+| 1 | 1 |   |
+
+* Boolean Algebra
+Algebra na zbiorze 2 elementowym (tutaj 1,0) i 3 operatorów(OR AND NOT) operacje dodatkowe suma modulo (alternatywa wykluczająca)
+** Własności
+- Przemienność
+- łączność
+- rozdzielność
+- tożsamość
+- komplementarność
+** Prawa de Morgana
+** Prawo Sklejania
+** Prawo Pochłaniania
+#+title: Kodowanie Liczb
+#+description: Metody kodowania liczb, Bit, Bajt, Systemy liczbowe
+* Bit, Bajt, Słowo
+| Bit     | Pojedyńcza wartość 0-1 |
+| Słowo   | Ciąg bitów             |
+| Bajt    | Słowo 8 Bitowe         |
+| Tetrada | Słowo 4 Bitowe         |
+* Sposby kodowania liczb
+** Naturalnych
+system pozycyjny z potęgami bazy liczbowej
+| cyfra | a₅ | a₄ | a₃ | a₂ | a₁ | a₀ |
+|-------+----+----+----+----+----+----|
+| waga  | 32 | 16 |  8 |  4 |  2 |  1 |
+*** Metody Przeliczania
+z 10 na 2 X%2 (np. 3%2=1 ^ 1 1%2=1 3₁₀ = 11₂)
+** Całkowitych
+Najstarszy Bit ma wagę ujemną
+*** Kod Uzupełnień do 2 (U2)
+| cyfra |  a₅ | a₄ | a₃ | a₂ | a₁ | a₀ |
+|-------+-----+----+----+----+----+----|
+| waga  | -32 | 16 |  8 |  4 |  2 | 1  |
+** Ułamkowych
+*** Dwójkowy system stałoprzecinkowy
+gdzie 3 to położenie przecinka
+| cyfra | a₅ | a₄ | a₃ | a₂  | a₁  | a₀  |
+|-------+----+----+----+-----+-----+-----|
+| waga  |  4 |  2 |  1 | 1/2 | 1/4 | 1/8 |
+**** Metoda Przeliczania
+3.14 = ∑aᵢ*2ⁱ⁻³
+* Kod BCD
+51₁₀=0101 0001 BCD
+Każda cyfra w liczbie jest oznaczona przez tetraedrę(4 bity)
+#+title: Minimalizacja Funkcji Boolowskiej
+#+description:
+* Implikant I(x)
+Term iloczynow y dla którego jest prawdziwe
++ $I(x)=1->f(x)=1$
+Implikantami funkcji boolowskiej Są termy iloczynwe zupełne torzące postac kanoniczną sumową
+Jeśli istnieje takie X dla którego f(X)=1 i dla którego tylko 1 implikant prosty jest I(X)=1 to jest to implikant zasadniczy
+* Postać minimalna funkcji
+** Sumowa
++ składa się z jak najmiejszej ilości implikacji prostych
++ muszą wystąpić wszystkie zasadnicze
++ mieć kilka mostaci minimalnych
+#+title: Układ cyfrowy Kombinacyjny, Funkcja bool
+#+description:
+* Term funkcji boolowskiej
+wyrażenie zapisane w algebrze boola będące iloczynem wszystkich argumentów funkcji boolowskiej lub sumą (term sumowy)
+|  x₁ |  x₂ |  x₃ | x₁*x₂*x₃ | x₁*~x₂*x₃ | x₁+x₂+x₃ |
+|-----+-----+-----+----------+-----------+----------|
+|   0 |   0 |   0 |        0 |         0 |        0 |
+|   0 |   0 |   1 |        0 |         0 |        1 |
+|   0 |   1 |   0 |        0 |         0 |        1 |
+| ... | ... | ... |      ... |       ... |      ... |
+|   1 |   0 |   1 |        0 |         1 |        1 |
+| ... | ... | ... |      ... |       ... |      ... |
+|   1 |   1 |   1 |        1 |         0 |        1 |
+* Dektoder NKB na kod 1 z n
+n bitowe słowo -> 2ⁿ bitowe słowo
+|   x | y₇ | y₆ | y₅ | y₄ | y₃ | y₂ | y₁ | y₁ |
+|-----+----+----+----+----+----+----+----+----|
+| 000 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |
+| 001 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |
+| 010 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |
+| 011 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |
+| 100 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |
+| 101 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |
+| 110 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |
+| 111 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |
+
+y₁=~x₁*~x₂*~x₃
+itd
+* liczba wszystkich funkcji boolowskich możliwych do zrobienia z n zmiennych
+$2^{n^{n}}$
+* Funkcja Boolowska niezupełna
+nie każdy input obsługiwany
+* Metody zapisywania funkcji boolowskiej
+** Postać Kanoniczna tabeli prawdy
+** Zapis dziesiętny
+$I=\sum_{3}(1,2,3,4,5,6,7)$ funkcja sumowa 3 input output 1 dla 1,2,3,4,5,6,7
+$I=\Pi_{3}(0,3,4)$ funkcja iloczynowa ma wartość 0 dla rzędu 0,3,4 tabeli
+** Kod Grey'a
+lustra
+*** Mapa Karnaugh
+| x | 00 | 01 | 11 | 10 |
+|---+----+----+----+----|
+| 0 |  0 |  1 |  0 |  1 |
+| 1 |  0 |  1 |  1 |  1 |
+mapa
+| X₂ | X₁ | X₀ |   |
+|----+----+----+---|
+|  0 |  0 |  0 | 0 |
+|  0 |  0 |  1 | 1 |
+|  0 |  1 |  0 | 1 |
+|  0 |  1 |  1 | 0 |
+|  1 |  0 |  0 | 0 |
+|  1 |  0 |  1 | 1 |
+| .. | .. | .. | . |
+tabela
+** Kod Johnsonn'a
+Uklady analogowe a cyfrowe
+	W ukladach cyfrowych bada sie stany logiczne a nie zaleznosc napiecia i natezenia
+
+relay
+	2 relay szeregowo - bramka AND - koniunkcja logiczna
+	"""" 	rownolegle	- Bramka OR
+
+stany logiczne a napiecie
+	Napiecie zasilania -Vcc (np 5V)
+	zakres napiec 0V - Vol -> stan 0
+	napaiecie Voh - np 5V  -> stan 1
+
+	Vol Voh - zakres napiec nadajnika V(output)low/high
+
+	Vol != Voh jest miedzy nimi przedzial zabroniony
+	stany w odbiorniki sa szersze
+	Vil Vih - zakresy napiec w odbiorniku V(input)low/high
+
+

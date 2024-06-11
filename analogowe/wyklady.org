@@ -247,3 +247,20 @@ może być określony jako
 częstotliwość dla której tłumienie wynosi >3dB
 ** Dobroć
 miara strat w filtrze i dokładności dostrojenia
+* Na Egzamin
+ + pisać wszystko
+ + Northon Thevenin twierdzenie i metoda (teoria nie licz)
+ + Podstawowe jednostki wielkości prawa
+ + źródła prądowe i napięciowe, na schemacie, łączenie, zamiana itp
+ + Metoda klasyczna, northon thevenin, oczkowa, potęcjały węzłowe(DC), superpozycja na przykładach z dzielnikiem prądowym obwodów z opisem
+ + Stany ustalone i nieustalone w obwodach RL i RC
+ + prąd zmienny na wykresach z osiami Im Re (liczby urojone)
+ + opisz cewke rezystor kondensator jako odbiornik AC, zilustruj przebiegi I U oraz funkcji wt
+ + Połączenie szeregowe RL i RC (trójkąt napięć i impedancji)
+ + zastosowanie liczb zespolonych dla obliczeń obwodów (impedancja admitancja suseptencja, postać normalna i wykładnicza)
+ + moc w obwodach AC (czynna bierna pozorna trójkąt mocy, współczynik mocy)
+ + Rezonans pradów i napięć
+ + czwórniki
+ + filtry RLC
+ + 3 pytania
+ + Z NOTATKAMI

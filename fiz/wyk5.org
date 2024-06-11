@@ -1,0 +1,8 @@
+#+title: indukcja elektromagnetyczna, zjawisko faraday'a
+#+description:
+* Indukcja magnetyczna
++ jednstką jest Weber (Wb=V*s)
++ postawową cechą pola mag jest bezźródłowość
+** Własności strumienia objętego przez kontur
+* Indukcja własna
+* Indu
