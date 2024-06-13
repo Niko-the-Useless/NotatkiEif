@@ -1,6 +1,7 @@
-#include "statemachine.h"
+#include"zeros.h"
 
-int main() {
-	exec();
+int main()
+{
+	Zeros(-1,2,3);
 	return 0;
 }
