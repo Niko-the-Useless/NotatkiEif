@@ -1,4 +1,4 @@
-#+title: Arytmetyka Binarna
+#+title: Wsm wszystko
 #+description:
 * Dodawanie i odejmowanie
 normalnie
