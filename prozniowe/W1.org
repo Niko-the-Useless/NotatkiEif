@@ -1,0 +1,23 @@
+#+title: Wstęp
+* Tr, mmHg, jednostka
+różnica między poziomami cieczy jest proporcjonlna do różnicy ciśnienia
+ciśnienie atm oddziałujące na reservoir wymuszając przemieszczenie cieczy(rtęci) w górę rurki(idealnie z próżnią)
+wysokość słupa rtęci, dla ciśnienia atmosferycznego 760mm-750Tr-1013hPa, 1hPa=1.33Tr
+* Zastosowanie
+- Układy scalone ULSI
+- Monitory, kineskopy
+- Lampy mikrofalowe
+- Źródła światła
+- Materiały o dużej czystości
+- Transforamatory i kondensatory
+- monokryształy
+- Techniki łączenia
+- Techniki toczenia
+- Transport detali
+- Żywność
+- Starodruki, archiwalia
+- Banknoty
+* Właściwości próżni
+- Redukcja szybkości procesów wywołanych obecnością gazów i wpływ tych gazów na procsy
+- Umożliwia wytwarzanie i formowanie wiązek ekektronowych, jonowych, molekularnych
+- Stanowi znakomitą izolację cieplną

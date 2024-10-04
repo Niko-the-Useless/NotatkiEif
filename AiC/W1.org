@@ -1,0 +1,40 @@
+#+title: Tranzystory Bipolarne
+* Historia
+John Bardeen Walter Brattain - bell labs 1947 pierwszy, 1956 Nagroda Nobla
+* Typy
+** Polaryzacja
+- PNP (point in please)
+- NPN (not pointing in)
+** Moc admisyjna
+- mała moc
+- Srednij mocy 0.5-5W
+- Duża moc
+** Częstotliwość pracy
+- mała
+- Średnia 3-30MHz
+- Duża 30-300MHz
+- b. Duża
+** Budowa
+- homozłączowe bjt
+- Heterozłączowe hbt
+* Układ OE- common emitter
+** SOA - Safe Operational Area
+Dopuszczalny obszar pracy gdzie P_{tot} nie jest zbyt wysoki, I_c  U_{ce} nie są za wysokie
+Praca normalna, nie inwersyjna
+* Stany Pracy
+** Stan Aktywny (normalny)
+B-C zaporowo
+B-E przewodzenie
+*** common emitter OE
+ja pierdole
+** Stan odcięcia
+B-C zaporowo
+B-E zaporowo
+** Stan Nasycenia
+B-C przewodzenie
+B-E przewodzenie
+** Stan aktwny inwersyjny
+B-C przewodzenie
+B-E zaporowo
+* Inne
+- Emiter wstrzykuje od bazy, kolektor zbiera z bazy

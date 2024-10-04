@@ -1,0 +1,53 @@
+#+title: optykaW
+* Optyka
+- Geometryczna
+  przetwarzanie frontów falowych lub promieni poprzez obrazowanie, odbicie ugięcia( bez dyfrakcyjnych )
+- Falowa
+  oddziaływanie światła z obiektami o rozmiarach rzędu wielkości fali 500nm
+- Kwantowa
+  oddziaływanie światła z obiektami atomowymi rzędu wielkości 1nm
+* Zakres światła widzialnego
+380nm-780m
+* Parametry Fali
+- Amplituda - wysokośc od grzbietu
+- Długość - odległośc między grzbietami
+- Okres - czas między grzbietsami
+- częstotliwość
+- Częstość
+- Częstotliwośc przestrzenna - 1/długość
+- Kierunek rozchodzenia
+- Front fazowy
+- Prędkość - prędkośc przemieszczenia się grzbietu fali
+- Kierunek rozchodzenia się fali
+- Faza - wielkosć opóźnienia jednej fali od innej
+** Podsumowanie
+- $v=λ*f=\frac{c}{n}$
+- n-> współczynnik załamania
+*** Fala płaska
+$E(z,t)=Eₒcos(ωT+kz+cośtam)
+*** Fala kulista
+*** Fala o dowolnym kształcie frontu falowego
+$E(x,y,z,t)=Eₒ(x,y,z)cos(ωt-γ₀)$
+*** Natężenie światła
+$l(x,y,z)<|E₀(x,y,z|²>
+* Podstawowe prawa optyki
+** Dyspersja
+- Współczynik załamania światła n=\frac{c}{v}=√\frac{ep}{cośtam}, określa jak zmienia się prędkość fali w danym ośrodku
+  dla światła widzialnego n≈√K_{b}, w rzeczywistości K_b to nie jest wartośc stała
+- pojęcie dyspersji odnosi się do zjawiska gdy współczynnik załamania światła zależy od częstotliwiości fali
+- Współczynik dyspersji Δn =n_F-n_c, określa różnice w współczyniku załamania światła dla w zależniości od częstotliwości
+- Liczba abbego - v=\frac{n_d-1}{Δn}
+- Dyspersja cząstkowa
+- małe n_d duża liczba abbego - krony
+- duża n_d mała liczba abbego -flinty
+** Zasada Fermata
+- promień Światło porusza sie najkrótszą, możliwą drogą, światło porusza się najszybszą drogą
+- Droga optyczna (grubośc optyczna)
+  L=OT-n*S, droga zależy od częstotliwiości, OT-optical thickness, s-droga geometryczna
+** Odbicie światła
+- odbicie rozproszone - silnie zależy od ukształtowania powierzchni
+- odbicie kierunkowe - dla powierzchni idealnie płaskiej
+** Prawo odbicia światła
+- kąt padania równa się kątowi odbicia, promień padający, odbity i normalna do powierzchni leżą w 1 płaszczyźnie
+- Współczynik odbicia światła - R=\frac{I₂}{I₁}=(\frac{E_{02}{E_{01}})²=[\frac{n₂-n₁}{n₁+n₂}]²
+- Współczynik transmisji światła T=1-R (środowisko bezstratne)

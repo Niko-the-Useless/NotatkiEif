@@ -176,6 +176,9 @@ A$Q=(U_l-U_c)*I=Q_l-Q_c$
 * Moc pozorna
 S=U*I
 * Trójkąt mocy
+:LOGBOOK:
+CLOCK: [2024-06-17 Mon 20:07]--[2024-06-17 Mon 20:32] =>  0:25
+:END:
 [[file:/home/Niko/studia/analogowe/troj.png]]
 * wpływ współczynnika mocy na pracę źródła napięcia
 Znaczna większośc odbiorników energii elektrycznej ma uzwojenia w postaci cewek i przez to ma charakter indukcyjny
