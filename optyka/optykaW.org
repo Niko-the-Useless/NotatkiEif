@@ -36,7 +36,7 @@ $l(x,y,z)<|E₀(x,y,z|²>
   dla światła widzialnego n≈√K_{b}, w rzeczywistości K_b to nie jest wartośc stała
 - pojęcie dyspersji odnosi się do zjawiska gdy współczynnik załamania światła zależy od częstotliwiości fali
 - Współczynik dyspersji Δn =n_F-n_c, określa różnice w współczyniku załamania światła dla w zależniości od częstotliwości
-- Liczba abbego - v=\frac{n_d-1}{Δn}
+- Liczba abbego - v=\frac{n_d-1}{Δn} - stosunek refrakcji do dyspersji
 - Dyspersja cząstkowa
 - małe n_d duża liczba abbego - krony
 - duża n_d mała liczba abbego -flinty
