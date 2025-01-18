@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "2ec49ab0fbd8d4c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "203792bac7f8d5ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53118592b71c1bdc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95f9618a58f0f5e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "139c33a0d62c7c36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13278bab547a867f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8393bbbfceed7336",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "notatki_eif",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "75e2110c536e4853",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3f43d2110ac8897",
+    "type": "split",
+    "children": [
+      {
+        "id": "a14757f3d0a64087",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cab19b9f46ad19e5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FPF.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for FPF"
+            }
+          },
+          {
+            "id": "a1d31f110801928f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "FPF.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from FPF"
+            }
+          },
+          {
+            "id": "de2f0166fd583798",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2cf16ac4a671ee49",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "FPF.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of FPF"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8393bbbfceed7336",
+  "lastOpenFiles": [
+    "Zarządzanie.md",
+    "Untitled.canvas",
+    "FPF.md"
+  ]
+}
