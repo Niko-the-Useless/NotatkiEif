@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "71dfad02d4f7e5dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bd8888e81435628",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c07270d27c51cea",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MOSFET.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MOSFET"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6f9acd4bb4a8b85",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a629d672dc0547af",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "bc6727a2e9da88b4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "a315ee8e6acf40e5",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "953e3f3d13d1f666",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7c873d5b10f244b1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c88d0ac8f4534a87",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "MOSFET.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "2b196f823692b155",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "MOSFET.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "5dfd81554a2aab8d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "MOSFET.pdf"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4c07270d27c51cea",
+  "lastOpenFiles": [
+    "FPF.md",
+    "PTC-W.md",
+    "MOSFET.pdf"
+  ]
+}

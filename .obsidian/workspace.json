@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "37de92ee05551fe9",
+    "id": "75a2a34015886f4c",
     "type": "split",
     "children": [
       {
-        "id": "86660709ef018d29",
+        "id": "b8c18a28bf40cf78",
         "type": "tabs",
         "children": [
           {
-            "id": "2b3f5c85c171920e",
+            "id": "4b173277b90a0df6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Próżnia.md",
+                "file": "PTC-W.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Próżnia"
+              "title": "PTC-W"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "87af38a4e0b1e88a",
+    "id": "f5b70161e6ef1fef",
     "type": "split",
     "children": [
       {
-        "id": "f2c5265f4b0947f9",
+        "id": "dab99ca48d3be94a",
         "type": "tabs",
         "children": [
           {
-            "id": "508bbef802fbb654",
+            "id": "28d7b7e8fb5af2f0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "5bb602faf33c95d1",
+            "id": "eb21734c8da75a7d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "54e14abd974dc820",
+            "id": "99df1c94450e86b3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,19 +81,20 @@
     "collapsed": true
   },
   "right": {
-    "id": "28f05c9a3e055082",
+    "id": "f849c2b15ba8844d",
     "type": "split",
     "children": [
       {
-        "id": "68991bf12c6357b2",
+        "id": "e89c5745a96455ec",
         "type": "tabs",
         "children": [
           {
-            "id": "f7702827d5ec636e",
+            "id": "712a11281fa87f37",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zarządzanie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Zarządzanie"
             }
           },
           {
-            "id": "439cc3478a321e53",
+            "id": "2d2218eae150edaf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zarządzanie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Zarządzanie"
             }
           },
           {
-            "id": "ebbede315148364b",
+            "id": "21d7a8ee14b86364",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,13 +135,15 @@
             }
           },
           {
-            "id": "07e1f4fefa02cc26",
+            "id": "06492bf5f1780169",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Zarządzanie.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Zarządzanie"
             }
           }
         ]
@@ -159,8 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b3f5c85c171920e",
+  "active": "4b173277b90a0df6",
   "lastOpenFiles": [
-    "Próżnia.md"
+    "Zarządzanie.md",
+    "PTC-W.md",
+    "Próżnia.md",
+    "MOSFET.pdf",
+    "FPF.md"
   ]
 }

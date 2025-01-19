@@ -16,7 +16,9 @@
 ## Wstępnej $10^0-10^5$
 ### olejowe, objętościowe
 #### Tłokowa
+Tłok przenosi objętość gazu między komorami oddzielonymi samoczynnym zaworem umożliwiającym przepływ płynu od części ssawnej do komory pompy, a blokującym przepływ w odwrotnym kierunku. Podobnie zawór tłoczny umożliwia jednokierunkowy przepływ z komory pompy do części tłocznej
 #### Łopatkowa
+Łopatki osadzone są w wirniku, który jest umiejscowiony mimośrodowo wewnątrz korpusu pompy. Łopatki są rozpierane w kierunku korpusu za pomocą sprężyn. W czasie obrotu wirnika, łopatki zagarniają ciecz z komory ssawnej do przestrzeni między łopatkowej przenosząc ją do komory tłocznej pompy.
 #### Dwustopniowa
 ### suche, objętościowe
 #### Rootsa
@@ -27,7 +29,12 @@
 #### Membranowa
 ## Wysokiej i ultra $10^{-11}-10^{-2}$
 ### Dyfuzyjne
+Strumień pary oleju trafia na dyszę formującą warstwę. oleju przez zjawisko dyfuzji porywa ze sobą cząsteczki gazu i transportuje je na dół pompy gdzie jest skraplane
 ### Molekularne i turbo
+#### Molekularna
+na szybko obracający się żłobiony wał przez wlot pompy trafiają cząstki gazu i są kierowane w stronę wylotu pompy. Szybki ruch obrotowy wału nadaje padającym cząsteczkom dodatkową prędkość w kierunku wylotu pompy.
+#### Turbo
+tak samo ale z wirnikiem
 # Opis Akumulacyjnych
 ## Wstępnej $10^0-10^5$
 ### zeolitowe
