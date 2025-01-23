@@ -28,6 +28,9 @@
 	rozwinięciem elektroniki z zastosowaniem fotonów zamiast
 	elektronów.
 ## Dyfrakcja fal, dyfrakcja światła, definicja, warunek zajścia, przykłady występowania
+- zespół zjawisk związanych z odstępstwami od praw optyki geometrycznej występującymi, podczas rozchodzenia się fal:
+	* na brzegach nieprzezroczystych przesłon
+	* niejednorodnościach ośrodka
 ## Dyfrakcja na szczelinie; dyfrakcja bliskiego i dalekiego pola; dyfrakcja na otworze kołowym
 ## Dyfrakcja rentgenowska, warunek Bragga
 - Źródło promieniowania X emituje fotony dokładnie określonej energii - długości fali
@@ -43,10 +46,18 @@ $sin\theta=\frac{\lambda}{2d}$
 - miara dyspersji $\frac{dn(\lambda)}{d\lambda}=\frac{dn(k)}{dk}$ pochodna współczynnika załamania po długości fali lub liczbie falowej
 - wywołana jest rezonansowym oddziaływaniem światła z atomami/cząsteczkami ośrodka
 ## Fala stojąca; warunek powstawania, przykłady występowania
+fala której grzbiety i doliny nie przemieszczają się. Fala stojąca powstaje na skutek interferencji dwóch takich samych fal poruszających się w tym samym kierunku, lecz o przeciwnych zwrotach
+$L=n\frac{\lambda}{2}$
+- rezonatory optyczne
+- instrumenty muzyczne
 ## Fale, fale elektromagnetyczne, równanie fali
+zaburzenia pól elektromagnetycznych rozchodzące się ze
+skończoną prędkością i przenoszące energię
 ## Fale: strzałki, węzły, grzbiety, doliny
 ## Głębokość wnikania światła
 ## Interferencja fali, interferencja światła, definicja, przykłady, warunki zajścia
+- nakładanie się, czyli super pozycja, 2 lub więcej fal prowadzące do zwiększenia lub zmniejszenia amplitudy fali wypadkowej w zależności od różnicy faz fal składowych
+- Fale muszą być spójne
 ## Od czego zależy szybkość propagacji światła w danym ośrodku?
 ## Opisać doświadczenie Younga
 ## Optyka geometryczna, falowa, kwantowa; definicja, rodzaje
@@ -80,12 +91,19 @@ jest przez prawo Snelliusa
 - prędkość rozprzestrzeniania się fazy fali w ośrodku
 - $V_\phi=\lambda*v$ 
 ## Promień świetlny
+nieskończenie wąska wiązka światła. Jest to model używany do opisu rozchodzenia się światła w optyce geometrycznej
 ## Pryzmat optyczny: budowa, cechy charakterystyczne
 - wiązka światła monochromatycznego przechodząc przez pryzmat zwykle dwukrotnie się załamuje przy czym kąt odchylenia zależy od 
 	1. kąta padania
 	2. kąta łamiącego pryzmatu
 	3. współczynnika załamania materiału pryzmatu
 ## Rozdzielczość optyczna
+- Wielkość charakteryzująca zdolność przyrządów/materiałów fotograficznych do wytwarzania/rejestrowania rozdzielnych obrazów blisko położonych szczegółów obiekty
+- Zdolność rozdzielcza jest równa najmniejszej odległości dwóch punktów jeszcze rozróżnialnych
+- może być:
+	- Liniowa
+	- Kątowa
+		Kąt zawarty między promieniami poprowadzonymi do tych punktów (dla oka min1')
 ## Siatka dyfrakcyjna: budowa, cechy charakterystyczne
 ## Warunek całkowitego wewnętrznego odbicia
 - zachodzi gdy światło pada od strony ośrodka o większym współczynniku załamania
@@ -118,15 +136,36 @@ jest przez prawo Snelliusa
 - ogniskowa
 - $1/f=1/x+1/y$
 ## Wymienić zjawiska optyczne (przykładowe) związane z: a) dyfrakcja, b) załamaniem światła
-1. Załamanie - 
+1. Dyspersja - rozszczepienie
+2. Prążki dyfrakcyjno-interferencyjne
 ## Zasada Fermata
 - światło biegnie między punktami po linii dla której droga optyczna jest najkrótsza (lub najdłuższa)
 - Droga optyczna $L=n*s$
 - jest słuszna tylko w przypadkach dla których długość fali świetlnej można przyjąć za pomijalną
 - eliminuje możliwość wystąpienia dyfrakcji
 ## Zasada Huygensa
+każdy punkt ośrodka, do którego dotarło czoło fali, można uważać za źródło nowej fali kulistej
 ## Zdolność rozdzielcza przyrządów optycznych
+### Mikroskop
+- Zależy od 
+	- długości fali światła, które oświetla obserwowany przedmiot
+	- Kąta rozwartości jaki tworzą dwie półproste poprowadzone stycznie do obrzeża soczewki ze środka przedmiotu
+- Ważną rolę odgrywa zjawisko dyfrakcji
 ## Zjawiska optyczne w przyrodzie: tęcza, efekt Tyndalla, halo, miraże, …
+- Fotometeory - odbicie, załamanie, ugięcie i interferencja światła z ciał niebieskich lub sztucznych źródeł przykłady:
+1. Tęcza
+2. Halo
+	Świetlisty krąg wokół źródła światła
+1. Kolor nieba
+2. Efekt Tyndalla
+	Rozpraszanie światła przez zawiesinę koloidalną
+3. Białość cukru
+4. Zorza polarna
+	Po dotarciu do atmosfery ziemskiej naładowane cząsteczki tworzące plazmę spotykają linie sił pola magnetycznego Ziemi. Wiatr deformuje pole magnetyczne Ziemi. Silna jonizacja podczas występowania zorzy polarnej powoduje zaburzenia w rozchodzeniu się fal radiowych. Atomy i cząsteczki w górnych warstwach atmosfery, wzbudzone wskutek bombardowania, emitują promieniowanie o charakterystycznym dla nich widmie
+1. Iryzacja
+	tęczowe barwy cienkich błonek powstające w wyniku interferencji światła białego odbitego od zewnętrznych i wewnętrznych powierzchni błonek zmiennej grubości
+2. Miraż
+	Powstaje wskutek różnej wartości współczynnika załamania światła w powietrzu o różnej temperaturze
 ## Zwierciadła: rodzaje, parametry, równanie, zasada działania
 ### Rodzaje
 - płaskie
