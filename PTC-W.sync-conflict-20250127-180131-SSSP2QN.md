@@ -45,11 +45,11 @@
 	 umożliwiające równoległe wprowadzenie i wyprowadzenie danych
 - Szeregowo-równoległe
 	 umożliwiające szeregowe wprowadzenie i równoległe wyprowadzenie danych
-- Równoległe-szeregowe
+- Równoległo-szeregowe
 	 umożliwiające równolegle wprowadzenie i szeregowe wyprowadzenie danych
 ## Funkcje dodatkowe
-- przesunięcie bitów
-- Wyzerowanie wartości
+- przesunięcie wartości
+- wpisanie wartości
 ## Budowa
 Składają się z połączonych przerzutników
 ## Zastosowanie
@@ -57,7 +57,7 @@ Zapis danych, buforowanie danych, dekodowanie i kodowanie danych
 # Liczniki
 ## Klasyfikacja
 - Szeregowe
-	 zmiany stanów zachodzą sekwencyjnie(po kolei)
+	 zmiany stanów zachodzą sekwencyjnie(po koleji)
 - Równoległe
     Zmiany stanów zachodzą jednocześnie
 ## Rodzaje
@@ -71,7 +71,9 @@ Zapis danych, buforowanie danych, dekodowanie i kodowanie danych
 - Kaskadowe
 ## Funkcje dodatkowe
 - wyzerowanie
-- przesunięcie o wartość
+- zmiana kierunku
+- wprowadzenie konkretnych danych
+- zmiana kroku licznika
 ## Budowa
 - z odpowiednio połączonych przerzutników
 ## Zastosowanie
@@ -101,7 +103,6 @@ wyjście jest funkcją stanu wewnętrznego i sygnałów wejściowych
 	dodanie dodatkowych grup łączących wszystkie grupy na mapie Karnaugh
 ## Wyścig
 - Stan w którym 2 lub więcej sygnałów zmieniają się w tym samym czasie a ostateczny wynik zależy od tego który zmieni się pierwszy
-- Krytyczny i niekrytyczny
   #### Rozwiązanie
 	dodanie dodatkowych stanów przejściowych
 ## Synteza
